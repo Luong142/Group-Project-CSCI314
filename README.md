@@ -1,5 +1,8 @@
 # Group-Project-CSCI314
 Cafe Management System
+Programming Language: Java
+Package: ()
+
 User Stories
 As a system admin, I want to create user profiles for cafe owners, managers, and staff.
 
