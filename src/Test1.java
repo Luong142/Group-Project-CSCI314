@@ -23,7 +23,6 @@ class Human
 
 }
 
-// for class dog, to remember the constructor
 class Student
 {
     private String name;
