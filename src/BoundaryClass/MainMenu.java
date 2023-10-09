@@ -6,7 +6,7 @@ import javax.swing.*;
 public class MainMenu
 {
     private JLabel Title;
-    
+
 
 
 }

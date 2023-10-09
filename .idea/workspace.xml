@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1308f736-c05a-4cb1-bec2-7540859423a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BoundaryClass/MainMenu.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BoundaryClass/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test1.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EntityClass/Bid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EntityClass/UserAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BoundaryClass/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoundaryClass/MainMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +45,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\giaca\Documents\GitHub\Group Project CSCI314\src\BoundaryClass" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="MainMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainMenu" />
