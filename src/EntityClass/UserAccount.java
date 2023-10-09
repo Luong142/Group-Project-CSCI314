@@ -1,5 +1,7 @@
 package EntityClass;
 
+// note that individual roles like cafe manager or system admin are not classes.
+// instead they are the role as an attribute string data type.
 public class UserAccount
 {
     private String username;

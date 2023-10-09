@@ -1,4 +1,7 @@
 package EntityClass;
 
-public class Schedule {
+public class Schedule
+{
+
+
 }
