@@ -1,17 +1,53 @@
-image: java:lastest
+variables:
+  MAVEN_OPTS: -Dmaven.repo.local=.m2/repository
+
+image: maven:latest
 
 stages:
     - build
     - test
+    - package
+    - deploy
 
-build:
-    stage: build
-    script: C:\Program Files\Java\jdk-16\bin\javac -cp .:lib/junit-4.10.jar *.java
-    artifacts:
-        path: 
-            - 
-            -
-            -
-test:
-    stage: test
-    script: C:\Program Files\Java\jdk-16\bin\javac -cp .:lib/junit-4.10.jar TestRunner
+
+cache:
+  paths:
+    - .m2/repository
+    - target
+
+build_job:
+  stage: build
+  tags:
+    - docker 
+
+  script: 
+    - echo "Maven compile started"
+    - "mvn compile"
+
+
+test_job:
+  stage: test
+  tags:
+    - docker 
+
+  script: 
+    - echo "Maven test started"
+    - "mvn test"
+
+package_job:
+  stage: package
+  tags:
+    - docker 
+
+  script: 
+    - echo "Maven packaging started"
+    - "mvn package"
+
+
+Deploy_job:
+  stage: deploy
+  tags:
+    - docker 
+
+  script: 
+    - echo "Maven deploy started"
