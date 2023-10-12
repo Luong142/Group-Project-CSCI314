@@ -8,58 +8,89 @@ public class UserProfile
     private int phone;
     private String email;
 
-    public UserProfile(String name, int age, String gender, int phone, String email)
+    private Role role;
+
+    public UserProfile(String name, int age, String gender, int phone, String email, Role role)
     {
         this.name = name;
         this.age = age;
         this.gender = gender;
         this.phone = phone;
         this.email = email;
+        this.role = role;
     }
 
-    // setter
-    void setEmail(String email)
+    public boolean isSystemAdmin()
     {
-        this.email = email;
+        return this.role == Role.SYSTEM_ADMIN;
     }
 
-    void setName(String name)
+    public boolean isStaffMember()
     {
-        this.name = name;
+        return this.role == Role.STAFF;
     }
 
-    void setAge(int age)
+
+
+    @Override
+    public String toString()
     {
-        this.age = age;
+        // later we change to better format
+        return "UserProfile{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender='" + gender + '\'' +
+                ", phone=" + phone +
+                ", email='" + email + '\'' +
+                ", role=" + role +
+                '}';
     }
 
-    void setGender(String gender)
-    {
-        this.gender = gender;
-    }
-
-    void setPhone(int phone)
-    {
-        this.phone = phone;
-    }
-
-    String getName(String name)
-    {
+    public String getName() {
         return name;
     }
 
-    String getGender(String gender)
-    {
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getGender() {
         return gender;
     }
 
-    String getEmail(String email)
-    {
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public int getPhone() {
+        return phone;
+    }
+
+    public void setPhone(int phone) {
+        this.phone = phone;
+    }
+
+    public String getEmail() {
         return email;
     }
 
-    int getAge(int age)
-    {
-        return age;
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public Role getRole() {
+        return role;
+    }
+
+    public void setRole(Role role) {
+        this.role = role;
     }
 }

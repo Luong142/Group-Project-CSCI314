@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1308f736-c05a-4cb1-bec2-7540859423a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/EntityClass/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EntityClass/WorkSlot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EntityClass/Bid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EntityClass/Bid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EntityClass/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EntityClass/UserAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EntityClass/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EntityClass/UserProfile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>

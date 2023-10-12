@@ -6,9 +6,9 @@ public class UserAccount
 {
     private String username;
     private String password;
-    private String role;
+    private Role role; // user type
 
-    public UserAccount(String username, String password, String role)
+    public UserAccount(String username, String password, Role role)
     {
         this.username = username;
         this.password = password;
@@ -25,7 +25,7 @@ public class UserAccount
         this.password = password;
     }
 
-    void setRole(String role)
+    void setRole(Role role)
     {
         this.role = role;
     }
@@ -40,9 +40,8 @@ public class UserAccount
         return password;
     }
 
-    String getRole()
+    Role getRole()
     {
       return role;
-
     }
 }
