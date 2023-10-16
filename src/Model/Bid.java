@@ -16,26 +16,8 @@ public class Bid
         this.staff = staff;
     }
 
-    // a function that help staff to submit the bid and await for their approval or rejection
-    public void submitBid()
-    {
-        try
-        {
-            if (this.staffMember == Role.STAFF)
-            {
-                // allow to submit
-                System.out.println("Bid Submitted");
-            }
-            else
-            {
-                System.out.println("retry");
-            }
-        }
-        catch (Exception e)
-        {
-            e.printStackTrace();
-        }
-    }
+    // this function should be in submit bid
+
 
     public void viewBid()
     {

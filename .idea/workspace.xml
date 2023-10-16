@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1308f736-c05a-4cb1-bec2-7540859423a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cafe/Management/System/SignUp.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cafe/Management/System/SignUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/ConnectionProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/LogInAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/SubmitBid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cafe/Management/System/MainMenu.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cafe/Management/System/MainMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Bid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Bid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cafe/Management/System/SignUp.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/cafe/Management/System/SignUp.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cafe/Management/System/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cafe/Management/System/SignUp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +50,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "273",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "264",
     "last_opened_file_path": "C:/Users/giaca/Documents/GitHub/Group-Project-CSCI314",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "configurable.group.editor"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -60,7 +63,7 @@
       <recent name="C:\Users\giaca\Documents\GitHub\Group Project CSCI314\src\BoundaryClass" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.testEnum">
     <configuration name="MainMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainMenu" />
       <module name="Group Project CSCI314" />
@@ -80,8 +83,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Model.testEnum" />
+      <module name="Group Project CSCI314" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.testEnum" />
         <item itemvalue="Application.MainMenu" />
         <item itemvalue="Application.MainMenu" />
       </list>
