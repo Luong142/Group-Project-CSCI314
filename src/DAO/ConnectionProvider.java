@@ -13,7 +13,8 @@ public class ConnectionProvider
         {
             // use this function to connect with the database
             Class.forName("com.mysql.jdbc.Driver");
-            return DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "system", "pass");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "system", "pass");
+            return con;
         }
         catch (Exception e)
         {
