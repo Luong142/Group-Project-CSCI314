@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1308f736-c05a-4cb1-bec2-7540859423a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cafe/Management/System/SignUp.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafe/Management/System/SignUp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BoundaryClass/MainMenu.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BoundaryClass/MainMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ControllerClass/LogInUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/LogInUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ControllerClass/LogOutUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/LogOutUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/UserProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cafe/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cafe/eye.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/PopUpImage/eye.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cafe/eyeslash.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/PopUpImage/eyeslash.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cafe/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cafe/register.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/register.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cafe/Management/System/MainMenu.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cafe/Management/System/MainMenu.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -47,15 +42,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/giaca/Documents/GitHub/Group-Project-CSCI314&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "273",
+    "last_opened_file_path": "C:/Users/giaca/Documents/GitHub/Group-Project-CSCI314",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\giaca\Documents\GitHub\Group-Project-CSCI314\src" />
