@@ -6,11 +6,12 @@ import java.sql.DriverManager;
 // it is incomplete for MySQL
 public class ConnectionProvider
 {
-    // override the function connection
+    // try to log into the mySQL cmd prompt
     public static Connection getCon()
     {
         try
         {
+            // use this function to connect with the database
             Class.forName("com.mysql.jdbc.Driver");
             return DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "system", "pass");
         }

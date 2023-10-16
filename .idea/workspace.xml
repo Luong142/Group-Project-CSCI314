@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1308f736-c05a-4cb1-bec2-7540859423a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DAO/ConnectionProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/LogInAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/SubmitBid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Bid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Bid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cafe/Management/System/SignUp.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/cafe/Management/System/SignUp.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cafe/Management/System/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cafe/Management/System/SignUp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +40,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "264",
     "last_opened_file_path": "C:/Users/giaca/Documents/GitHub/Group-Project-CSCI314",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "configurable.group.editor"
   }
 }]]></component>
