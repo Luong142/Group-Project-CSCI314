@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1308f736-c05a-4cb1-bec2-7540859423a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ControllerClass/LogInUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ControllerClass/LogOutUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BoundaryClass/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoundaryClass/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ControllerClass/UserProfileController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EntityClass/Bid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Bid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EntityClass/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EntityClass/Schedule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EntityClass/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/UserAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EntityClass/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/UserProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EntityClass/WorkSlot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/WorkSlot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BoundaryClass/MainMenu.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BoundaryClass/MainMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ControllerClass/LogInUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/LogInUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ControllerClass/LogOutUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/LogOutUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/UserProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cafe/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cafe/eye.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/PopUpImage/eye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cafe/eyeslash.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/PopUpImage/eyeslash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cafe/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cafe/register.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/register.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +58,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\giaca\Documents\GitHub\Group-Project-CSCI314\src" />
+      <recent name="C:\Users\giaca\Documents\GitHub\Group-Project-CSCI314\src\PopUpImage" />
+      <recent name="C:\Users\giaca\Documents\GitHub\Group-Project-CSCI314\src\Images" />
       <recent name="C:\Users\giaca\Documents\GitHub\Group Project CSCI314\src\BoundaryClass" />
     </key>
   </component>

@@ -1,8 +1,10 @@
 package Model;
 
-public class UserProfile
-{
-    private String name;
+public class UserProfile {
+    private String fname;
+
+    private String lname;
+
     private int age;
     private String gender;
     private int phone;
@@ -10,9 +12,10 @@ public class UserProfile
 
     private Role role;
 
-    public UserProfile(String name, int age, String gender, int phone, String email, Role role)
+    public UserProfile(String fname, String lname, int age, String gender, int phone, String email, Role role)
     {
-        this.name = name;
+        this.fname = fname;
+        this.lname = lname;
         this.age = age;
         this.gender = gender;
         this.phone = phone;
@@ -20,24 +23,12 @@ public class UserProfile
         this.role = role;
     }
 
-    public boolean isSystemAdmin()
-    {
-        return this.role == Role.SYSTEM_ADMIN;
-    }
-
-    public boolean isStaffMember()
-    {
-        return this.role == Role.STAFF;
-    }
-
-
-
     @Override
     public String toString()
     {
-        // later we change to better format
         return "UserProfile{" +
-                "name='" + name + '\'' +
+                "fname='" + fname + '\'' +
+                ", lname='" + lname + '\'' +
                 ", age=" + age +
                 ", gender='" + gender + '\'' +
                 ", phone=" + phone +
@@ -46,12 +37,20 @@ public class UserProfile
                 '}';
     }
 
-    public String getName() {
-        return name;
+    public String getFname() {
+        return fname;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setFname(String fname) {
+        this.fname = fname;
+    }
+
+    public String getLname() {
+        return lname;
+    }
+
+    public void setLname(String lname) {
+        this.lname = lname;
     }
 
     public int getAge() {

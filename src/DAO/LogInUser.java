@@ -1,4 +1,4 @@
-package ControllerClass;
+package DAO;
 
 public class LogInUser
 {
