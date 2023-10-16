@@ -1,4 +1,4 @@
-package EntityClass;
+package Model;
 
 public enum Role
 {

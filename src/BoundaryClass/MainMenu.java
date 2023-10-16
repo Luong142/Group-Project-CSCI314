@@ -1,6 +1,6 @@
 package BoundaryClass;
 
-import javax.swing.*;
+import javax.swing.JLabel;
 
 // Boundary Class
 public class MainMenu
