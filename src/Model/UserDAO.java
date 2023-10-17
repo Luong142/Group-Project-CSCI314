@@ -10,7 +10,9 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-// for database
+// for database, this is just a test, take a look how CRUDS perform in these entity classes
+@SuppressWarnings("ALL") // suppress warnings for all methods in this class
+
 public class UserDAO {
     public Connection conn;
 

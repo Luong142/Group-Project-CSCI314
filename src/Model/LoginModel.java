@@ -19,18 +19,22 @@ public class LoginModel extends UserDAO {
     public Map<String, String> getPhoneAndPass(String profile) {
         Map<String, String> phoneAndPass = new HashMap<>();
 
-        try {
+        try
+        {
             String sql = "SELECT phone, password FROM " + profile + " WHERE status = 'active'";
 
             Statement stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery(sql);
 
-            while (rs.next()) {
+            while (rs.next())
+            {
                 String phone = rs.getString("phone");
                 String password = rs.getString("password");
                 phoneAndPass.put(phone, password);
             }
-        } catch (Exception e) {
+        }
+        catch (Exception e)
+        {
             e.printStackTrace();
         }
 
