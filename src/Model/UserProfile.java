@@ -7,10 +7,10 @@ public class UserProfile
     private String lname;
     private int age;
     private String gender;
-    private String phone;
+    private int phone;
     private String email;
 
-    public UserProfile(int userID, String fname, String lname, int age, String gender, String phone, String email)
+    public UserProfile(int userID, String fname, String lname, int age, String gender, int phone, String email)
     {
         this.userID = userID;
         this.fname = fname;
@@ -79,11 +79,11 @@ public class UserProfile
         this.gender = gender;
     }
 
-    public String getPhone() {
+    public int getPhone() {
         return phone;
     }
 
-    public void setPhone(String phone) {
+    public void setPhone(int phone) {
         this.phone = phone;
     }
 
