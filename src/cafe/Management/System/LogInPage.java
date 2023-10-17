@@ -1,15 +1,13 @@
 package Cafe.Management.System;
 
 import javax.swing.*;
-import javax.swing.ImageIcon;
 
 import Model.Role;
 
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class SignUp extends JFrame
+public class LogInPage extends JFrame
 {
     public JPanel jPanelSignUp;
     private JLabel cafeLabel;
@@ -22,7 +20,7 @@ public class SignUp extends JFrame
 
     private JFrame backgroundImage;
 
-    public SignUp(String title)
+    public LogInPage(String title)
     {
         super(title);
         this.setContentPane(jPanelSignUp);
@@ -38,25 +36,17 @@ public class SignUp extends JFrame
 
          */
 
-        // should activate the log in function in controller class
+
         loginButton.addActionListener(new ActionListener()
         {
             @Override
-            public void actionPerformed(ActionEvent e) {
-
+            public void actionPerformed(ActionEvent e)
+            {
+                // should activate the log in function in controller class
+                // instantiate the controller class logInUser class
+                // activate the log in
             }
         });
-    }
-
-    // testing purpose
-    public static void main(String[] args)
-    {
-        SignUp signUpPage = new SignUp("Cafe Management System");
-        // size here
-        signUpPage.setSize(600, 500);
-        signUpPage.getContentPane().setBackground(Color.MAGENTA);
-
-        signUpPage.setVisible(true);
     }
 }
 

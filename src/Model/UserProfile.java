@@ -1,27 +1,27 @@
 package Model;
 
-public class UserProfile {
+public class UserProfile
+{
+    private int userID;
     private String fname;
-
     private String lname;
-
     private int age;
     private String gender;
-    private int phone;
+    private String phone;
     private String email;
 
-    private Role role;
-
-    public UserProfile(String fname, String lname, int age, String gender, int phone, String email, Role role)
+    public UserProfile(int userID, String fname, String lname, int age, String gender, String phone, String email)
     {
+        this.userID = userID;
         this.fname = fname;
         this.lname = lname;
         this.age = age;
         this.gender = gender;
         this.phone = phone;
         this.email = email;
-        this.role = role;
+
     }
+
 
     @Override
     public String toString()
@@ -33,8 +33,18 @@ public class UserProfile {
                 ", gender='" + gender + '\'' +
                 ", phone=" + phone +
                 ", email='" + email + '\'' +
-                ", role=" + role +
+
                 '}';
+    }
+
+    public int getUserID()
+    {
+        return userID;
+    }
+
+    public void setUserID(int userID)
+    {
+        this.userID = userID;
     }
 
     public String getFname() {
@@ -69,11 +79,11 @@ public class UserProfile {
         this.gender = gender;
     }
 
-    public int getPhone() {
+    public String getPhone() {
         return phone;
     }
 
-    public void setPhone(int phone) {
+    public void setPhone(String phone) {
         this.phone = phone;
     }
 
@@ -83,13 +93,5 @@ public class UserProfile {
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public Role getRole() {
-        return role;
-    }
-
-    public void setRole(Role role) {
-        this.role = role;
     }
 }

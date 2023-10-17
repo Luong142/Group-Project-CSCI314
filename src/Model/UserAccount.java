@@ -8,39 +8,52 @@ public class UserAccount
     private String password;
     private Role role; // user type
 
-    public UserAccount(String username, String password, Role role)
+    private UserProfile userProfile;
+
+    public UserAccount(String username, String password, Role role, UserProfile userProfile)
     {
         this.username = username;
         this.password = password;
         this.role = role;
+        this.userProfile = userProfile;
     }
 
-    void setUsername(String username)
+    public void setUserProfile(UserProfile userProfile)
+    {
+        this.userProfile = userProfile;
+    }
+
+    public UserProfile getUserProfile()
+    {
+        return userProfile;
+    }
+
+    public void setUsername(String username)
     {
         this.username = username;
     }
 
-    void setPassword(String password)
+    public void setPassword(String password)
     {
         this.password = password;
     }
 
-    void setRole(Role role)
+    public void setRole(Role role)
     {
         this.role = role;
     }
 
-    String getUsername()
+    public String getUsername()
     {
         return username;
     }
 
-    String getPassword()
+    public String getPassword()
     {
         return password;
     }
 
-    Role getRole()
+    public Role getRole()
     {
       return role;
     }

@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1308f736-c05a-4cb1-bec2-7540859423a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DAO/DbOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/backgroundSmall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ControllerClass/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/Tables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafe/Management/System/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cafe/Management/System/LogInPage.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cafe/Management/System/LogInPage.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cafe/Management/System/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cafe/Management/System/LogInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cafe/Management/System/MainMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cafe/Management/System/MainMenuPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DAO/ConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/ConnectionProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cafe/Management/System/SignUp.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/cafe/Management/System/SignUp.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/LogInAdmin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/LogInUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ControllerClass/LogInUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/LogOutUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ControllerClass/LogOutUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/SubmitBid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ControllerClass/SubmitBid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/UserAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/UserProfile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cafe/Management/System/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cafe/Management/System/SignUp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +81,33 @@
       <recent name="C:\Users\giaca\Documents\GitHub\Group-Project-CSCI314\src\Images" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SignUp">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="LogInPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cafe.Management.System.LogInPage" />
+      <module name="Group Project CSCI314" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Cafe.Management.System.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cafe.Management.System.Main" />
+      <module name="Group Project CSCI314" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Cafe.Management.System.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainMenu" />
       <module name="Group Project CSCI314" />
@@ -90,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Cafe.Management.System.SignUp" />
+    <configuration name="Tables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DAO.Tables" />
       <module name="Group Project CSCI314" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Cafe.Management.System.*" />
+          <option name="PATTERN" value="DAO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,9 +155,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SignUp" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Tables" />
+        <item itemvalue="Application.LogInPage" />
         <item itemvalue="Application.testEnum" />
-        <item itemvalue="Application.MainMenu" />
         <item itemvalue="Application.MainMenu" />
       </list>
     </recent_temporary>
