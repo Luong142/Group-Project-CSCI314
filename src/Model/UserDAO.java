@@ -10,6 +10,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+// for database
 public class UserDAO {
     public Connection conn;
 
@@ -18,7 +19,8 @@ public class UserDAO {
         {
             conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/cms?useSSL=false", "root", "123456");
 
-        } catch (SQLException e)
+        }
+        catch (SQLException e)
         {
             e.printStackTrace();
         }
@@ -43,7 +45,8 @@ public class UserDAO {
         }
     }
 
-    public Map<String, String> getAccount(String profile, String phone) {
+    public Map<String, String> getAccount(String profile, String phone)
+    {
         Map<String, String> account = new HashMap<>();
 
         try {

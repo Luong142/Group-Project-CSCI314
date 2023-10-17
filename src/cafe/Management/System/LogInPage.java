@@ -13,7 +13,7 @@ public class LogInPage extends JFrame
     private JTextField usernameInput;
     private JPasswordField passwordInput;
     private JButton loginButton;
-    private JComboBox<Role> comboBox1; // the user can select the role in this box
+    // private JComboBox<Role> comboBox1; // the user can select the role in this box
     private JLabel clickableRegister; // for clickable label
 
     private JFrame backgroundImage;
@@ -35,15 +35,15 @@ public class LogInPage extends JFrame
          */
 
 
-        loginButton.addActionListener(new ActionListener()
+        loginButton.addActionListener(e ->
         {
-            @Override
-            public void actionPerformed(ActionEvent e)
-            {
-                // should activate the log in function in controller class
-                // instantiate the controller class logInUser class
-                // activate the log in
-            }
+            // should activate the log in function in controller class
+            // instantiate the controller class logInUser class
+            // activate the log in
+
+
+
+
         });
     }
 }
