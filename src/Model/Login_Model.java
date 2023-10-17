@@ -2,21 +2,14 @@ package Model;
 
 // note that individual roles like cafe manager or system admin are not classes.
 // instead they are the role as an attribute string data type.
-public class UserAccount
+public class Login_Model
 {
     private String username;
     private String password;
     private Role role; // user type
-
     private UserProfile userProfile;
 
-    public UserAccount(String username, String password, Role role, UserProfile userProfile)
-    {
-        this.username = username;
-        this.password = password;
-        this.role = role;
-        this.userProfile = userProfile;
-    }
+
 
     public void setUserProfile(UserProfile userProfile)
     {

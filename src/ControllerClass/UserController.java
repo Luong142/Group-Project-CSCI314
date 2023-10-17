@@ -1,9 +1,9 @@
 package ControllerClass;
 
-import Model.UserAccount;
+import Model.Login_Model;
 
 public class UserController {
-    private UserAccount userAccount;
+    private Login_Model logInModel;
 
     public UserController() {
         // Initialize the userAccount (data access layer)

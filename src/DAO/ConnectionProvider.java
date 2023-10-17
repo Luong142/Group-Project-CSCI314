@@ -3,7 +3,6 @@ package DAO;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-// it is incomplete for MySQL
 public class ConnectionProvider
 {
     // try to log into the mySQL cmd prompt

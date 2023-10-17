@@ -1,5 +1,7 @@
 package Model;
 
+import DAO.DbOperation;
+
 public class UserProfile
 {
     private int userID;
@@ -7,19 +9,17 @@ public class UserProfile
     private String lname;
     private int age;
     private String gender;
-    private String phone;
+    private int phone;
     private String email;
 
-    public UserProfile(int userID, String fname, String lname, int age, String gender, String phone, String email)
-    {
-        this.userID = userID;
-        this.fname = fname;
-        this.lname = lname;
-        this.age = age;
-        this.gender = gender;
-        this.phone = phone;
-        this.email = email;
+    // no need constructor
 
+    public void createUserProfile(String fname, String lname, int age, String gender, int phone, String email)
+    {
+        String query = "INSERT INTO user(fname, lname, age, gender, phone, email) " +
+                "values('"+ fname +"', '"+ lname +"', '"+ age +"', '"+
+                gender +"', '"+ phone +"', '"+ email + "')";
+        DbOperation.setDataOrDelete(query, "Register successfully! wait for admin approval!");
     }
 
 
@@ -79,11 +79,11 @@ public class UserProfile
         this.gender = gender;
     }
 
-    public String getPhone() {
+    public int getPhone() {
         return phone;
     }
 
-    public void setPhone(String phone) {
+    public void setPhone(int phone) {
         this.phone = phone;
     }
 

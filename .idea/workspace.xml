@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1308f736-c05a-4cb1-bec2-7540859423a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ControllerClass/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/Tables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cafe/Management/System/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cafe/Management/System/LogInPage.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cafe/Management/System/LogInPage.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cafe/Management/System/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cafe/Management/System/LogInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cafe/Management/System/MainMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cafe/Management/System/MainMenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ControllerClass/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ControllerClass/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DAO/ConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/ConnectionProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAO/LogInAdmin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAO/LogInUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ControllerClass/LogInUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAO/LogOutUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ControllerClass/LogOutUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAO/SubmitBid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ControllerClass/SubmitBid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/UserAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Login_Model.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/UserProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cafe/Management/System/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cafe/Management/System/SignUp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
