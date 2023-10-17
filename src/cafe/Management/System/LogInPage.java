@@ -1,4 +1,4 @@
-package Cafe.Management.System;
+package cafe.Management.System;
 
 import javax.swing.*;
 

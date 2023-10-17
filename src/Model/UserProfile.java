@@ -14,6 +14,17 @@ public class UserProfile
 
     // no need constructor
 
+    public UserProfile(int userID, String fname, String lname, int age, String gender, int phone, String email)
+    {
+        this.userID = userID;
+        this.fname = fname;
+        this.lname = lname;
+        this.age = age;
+        this.gender = gender;
+        this.phone = phone;
+        this.email = email;
+    }
+
     public void createUserProfile(String fname, String lname, int age, String gender, int phone, String email)
     {
         String query = "INSERT INTO user(fname, lname, age, gender, phone, email) " +
