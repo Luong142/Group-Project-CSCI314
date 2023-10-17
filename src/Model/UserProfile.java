@@ -13,39 +13,12 @@ public class UserProfile
     private String email;
 
     // no need constructor
-
-    public UserProfile(int userID, String fname, String lname, int age, String gender, int phone, String email)
-    {
-        this.userID = userID;
-        this.fname = fname;
-        this.lname = lname;
-        this.age = age;
-        this.gender = gender;
-        this.phone = phone;
-        this.email = email;
-    }
-
     public void createUserProfile(String fname, String lname, int age, String gender, int phone, String email)
     {
         String query = "INSERT INTO user(fname, lname, age, gender, phone, email) " +
                 "values('"+ fname +"', '"+ lname +"', '"+ age +"', '"+
                 gender +"', '"+ phone +"', '"+ email + "')";
         DbOperation.setDataOrDelete(query, "Register successfully! wait for admin approval!");
-    }
-
-
-    @Override
-    public String toString()
-    {
-        return "UserProfile{" +
-                "fname='" + fname + '\'' +
-                ", lname='" + lname + '\'' +
-                ", age=" + age +
-                ", gender='" + gender + '\'' +
-                ", phone=" + phone +
-                ", email='" + email + '\'' +
-
-                '}';
     }
 
     public int getUserID()

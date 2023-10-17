@@ -1,7 +1,5 @@
 package ControllerClass;
 
-import Model.Role;
-
 public class SubmitBid
 {
     Role staffMember;

@@ -9,28 +9,7 @@ public class WorkSlot
     private String status;
     private String slotID;
 
-    public WorkSlot(UserProfile staff, String startTime, String endTime, String date, String status, String slotID)
-    {
-        this.staff = staff;
-        this.startTime = startTime;
-        this.endTime = endTime;
-        this.date = date;
-        this.status = status;
-        this.slotID = slotID;
-    }
 
-    @Override
-    public String toString()
-    {
-        return "WorkSlot{" +
-                "staff=" + staff +
-                ", startTime='" + startTime + '\'' +
-                ", endTime='" + endTime + '\'' +
-                ", date='" + date + '\'' +
-                ", status='" + status + '\'' +
-                ", slotID='" + slotID + '\'' +
-                '}';
-    }
 
     public UserProfile getStaff() {
         return staff;

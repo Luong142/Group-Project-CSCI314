@@ -2,14 +2,19 @@ package Model;
 
 // note that individual roles like cafe manager or system admin are not classes.
 // instead they are the role as an attribute string data type.
-public class Login_Model
+public class Login extends UserProfile
 {
     private String username;
     private String password;
-    private Role role; // user type
+    // private Role role; // user type
     private UserProfile userProfile;
 
-
+    public Login(String username, String password, UserProfile userProfile)
+    {
+        this.username = username;
+        this.password = password;
+        this.userProfile = userProfile;
+    }
 
     public void setUserProfile(UserProfile userProfile)
     {
@@ -31,10 +36,6 @@ public class Login_Model
         this.password = password;
     }
 
-    public void setRole(Role role)
-    {
-        this.role = role;
-    }
 
     public String getUsername()
     {
@@ -46,8 +47,4 @@ public class Login_Model
         return password;
     }
 
-    public Role getRole()
-    {
-      return role;
-    }
 }

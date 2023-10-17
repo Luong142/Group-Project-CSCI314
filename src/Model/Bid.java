@@ -2,15 +2,12 @@ package Model;
 
 public class Bid
 {
-    private Role staffMember; // strictly staff
-
     private UserProfile staff;
     private int bidID;
     private boolean isAvailable;
 
-    public Bid(Role staffMember, int bidID, boolean isAvailable, UserProfile staff)
+    public Bid(int bidID, boolean isAvailable, UserProfile staff)
     {
-        this.staffMember = staffMember;
         this.bidID = bidID;
         this.isAvailable = isAvailable;
         this.staff = staff;
@@ -22,25 +19,6 @@ public class Bid
     public void viewBid()
     {
 
-    }
-
-    @Override
-    public String toString()
-    {
-        return "Bid{" +
-                "staffMember=" + staffMember +
-                ", staff=" + staff +
-                ", bidID=" + bidID +
-                ", isAvailable=" + isAvailable +
-                '}';
-    }
-
-    public Role getStaffMember() {
-        return staffMember;
-    }
-
-    public void setStaffMember(Role staffMember) {
-        this.staffMember = staffMember;
     }
 
     public UserProfile getStaff() {
